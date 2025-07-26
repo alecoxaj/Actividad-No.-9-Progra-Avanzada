@@ -76,4 +76,19 @@ while True:
                 genre = input("Introduce el género: ")
                 agregar_pelicula(title, year, genre)
             print("¡Películas agregadas! \n")
+        case "2":
+            mostrar_peliculas()
+        case "3":
+            genre = input("Introduce el género exacto: ")
+            buscar_por_genero(genre)
+        case "4":
+            title = input("Introduce el título exacto para eliminar: ")
+            eliminar_por_titulo(title)
+        case "5":
+            estadísticas()
+        case "6":
+            print("¡Programa finalizado! Saliendo...")
+            break
+        case _:
+            print("¡Opción inválida! Inténtalo nuevamente.")
 
