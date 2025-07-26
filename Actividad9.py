@@ -90,5 +90,5 @@ while True:
             print("¡Programa finalizado! Saliendo...")
             break
         case _:
-            print("¡Opción inválida! Inténtalo nuevamente.")
+            print("¡Opción inválida! Inténtalo nuevamente. ")
 
