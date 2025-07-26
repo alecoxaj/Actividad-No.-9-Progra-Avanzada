@@ -66,7 +66,7 @@ while True:
     print("5. Ver estadísticas")
     print("6. Salir")
 
-    option = input("Selecciona una opción: ")
+    option = input("Selecciona una opción (1-6): ")
 
     match option:
         case "1":
