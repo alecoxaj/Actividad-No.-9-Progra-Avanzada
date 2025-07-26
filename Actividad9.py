@@ -57,5 +57,5 @@ def estadísticas():
     print()
 
 while True:
-    print("MENÚ")
+    print("MENÚ ")
 
