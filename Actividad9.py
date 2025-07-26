@@ -57,6 +57,7 @@ def estadísticas():
     print()
 
 while True:
+    print("¡Bienvenido!")
     print("MENÚ")
     print("1. Agregar películas")
     print("2. Mostrar todas las películas")
