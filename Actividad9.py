@@ -57,5 +57,23 @@ def estadísticas():
     print()
 
 while True:
-    print("MENÚ ")
+    print("MENÚ")
+    print("1. Agregar películas")
+    print("2. Mostrar todas las películas")
+    print("3. Buscar por género")
+    print("4. Eliminar por título")
+    print("5. Ver estadísticas")
+    print("6. Salir")
+
+    option = input("Selecciona una opción: ")
+
+    match option:
+        case "1":
+            quantity = int(input("¿Cuántas películas deseas agregar? "))
+            for _ in range(quantity):
+                title = input("Introduce el título: ")
+                year = int(input("Introduce el año: "))
+                genre = input("Introduce el género: ")
+                agregar_pelicula(title, year, genre)
+            print("¡Películas agregadas!\n")
 
