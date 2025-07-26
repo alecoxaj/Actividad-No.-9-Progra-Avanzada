@@ -75,5 +75,5 @@ while True:
                 year = int(input("Introduce el año: "))
                 genre = input("Introduce el género: ")
                 agregar_pelicula(title, year, genre)
-            print("¡Películas agregadas!\n")
+            print("¡Películas agregadas! \n")
 
